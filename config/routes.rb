@@ -1,4 +1,7 @@
 Rails.application.routes.draw do
+  get 'users/new'
+
+  resources :reviews
   get 'coops/index'
 
   get 'coops/new'

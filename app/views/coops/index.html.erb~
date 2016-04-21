@@ -10,4 +10,4 @@
 
 <p><%= link_to "Add a job", new_coop_path %></p>
 
-<p><%= paginate @jobs %></p>
+<p><%= paginate @coops %></p>

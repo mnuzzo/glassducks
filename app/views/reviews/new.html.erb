@@ -1,0 +1,6 @@
+<%= simple_form_for @review do |form| %>
+  <%= form.input :id_number, label: "ID (of Co-Op)" %>
+  <%= form.input :rating, label: "Rating (0.0-5.0)" %>
+  <%= form.input :description, label: "Review" %>
+  <%= form.button :submit %>
+<% end %>
